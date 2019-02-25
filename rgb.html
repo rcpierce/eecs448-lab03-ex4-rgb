@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link href="rgb_style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="rgb_script.js"></script>
+        <title>RGB Changer</title>
     </head>
     <body>
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore numquam consequuntur accusantium repudiandae, quod, explicabo ullam harum odit delectus exercitationem assumenda eaque maxime dignissimos enim laboriosam beatae atque quidem iusto.</p>
+        <p>
+            BORDER:<br>
+            Red: <input type="number" id="borderRed" placeholder="Enter new red value"><br>
+            Green: <input type="number" id="borderGreen" placeholder="Enter new green value"><br>
+            Blue: <input type="number" id="borderBlue" placeholder="Enter new blue value"><br>
+            Width: <input type="number" id="borderWidth" placeholder="Enter new width"><br>
+            <br>
+            BACKGROUND:<br>
+            Red: <input type="number" id="bgRed" placeholder="Enter new red value"><br>
+            Green: <input type="number" id="bgGreen" placeholder="Enter new red value"><br>
+            Blue: <input type="number" id="bgBlue" placeholder="Enter new red value"><br>
+            <br><br>
+            <button onclick="rgbChange()">Submit Changes</button>
+        </p>
         
     </body>
 </html>
